@@ -1,15 +1,20 @@
 {
   "name": "express-app",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
     "url": "git remote add origin https://github.com/Thabiso22/express-app.git"
   },
   "author": "Thabiso",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.15.4"
+  },
+  "devDependencies": {},
+  "description": ""
 }
